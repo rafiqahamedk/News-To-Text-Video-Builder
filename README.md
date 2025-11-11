@@ -4,23 +4,20 @@ A Python-based tool that converts any news article into a narrated video.This pr
 
 ## 🚀 Features
 
-🌐 Fetches article text from any URL
+- 🌐 Fetches article text from any URL
 
-🧠 Generates headline, bullet points, summary, and takeaway
+- 🧠 Generates headline, bullet points, summary, and takeaway
 
-🗣️ Text-to-Speech using Google Cloud TTS or gTTS
+- 🗣️ Text-to-Speech using Google Cloud TTS or gTTS
 
-🎬 Video rendering via MoviePy + Pillow
+- 🎬 Video rendering via MoviePy + Pillow
 
-📝 Clean banner, slides, subtitles
+- 📝 Clean banner, slides, subtitles
 
-🎞️ Two video modes:
-    📌 Points Mode (slide per bullet point)
-    🎚️ Scrolling Mode (scrolling text + subtitles)
+- 🎞️ Two video modes:
+    - 📌 Points Mode (slide per bullet point)
+    - 🎚️ Scrolling Mode (scrolling text + subtitles)
 
-🎧 Outputs MP3 narration
-
-📹 Outputs MP4 video
 
 
 ## 📂 Project Structure
@@ -34,19 +31,19 @@ News-To-Text-Video-Builder/
 ```
 
 ## 🔧 Requirements
--🐍 Python 3.9 or above
+- 🐍 Python 3.9 or above
 
--🎬 MoviePy
+- 🎬 MoviePy
 
--🖼️ Pillow
+- 🖼️ Pillow
 
--🌐 Requests
+- 🌐 Requests
 
--🍜 BeautifulSoup4
+- 🍜 BeautifulSoup4
 
--🔊 gTTS (fallback TTS engine)
+- 🔊 gTTS (fallback TTS engine)
 
--🎤 Google Cloud Text-to-Speech (optional, high-quality voices)
+- 🎤 Google Cloud Text-to-Speech (optional, high-quality voices)
 
 ## 📦 Installation Guide
 
@@ -66,47 +63,47 @@ You will be prompted to enter a news/article URL.
 
 ### The tool will:
 
--📥 Fetch the article
+- 📥 Fetch the article
 
--✂️ Extract main content
+- ✂️ Extract main content
 
--🧠 Summarize
+- 🧠 Summarize
 
--🗣️ Generate narration
+- 🗣️ Generate narration
 
--🖼️ Render slides
+- 🖼️ Render slides
 
--🎬 Produce MP4 + MP3
+- 🎬 Produce MP4 + MP3
 
-### 🧠 How It Works
+## 🧠 How It Works
 
--🌐 You provide a news/article URL through the script or Colab input
+- 🌐 You provide a news/article URL through the script or Colab input
 
--📝 Content Extractor fetches and cleans the article text
+- 📝 Content Extractor fetches and cleans the article text
 
--🧩 Summarizer Engine generates the headline, bullet points, summary, and takeaway
+- 🧩 Summarizer Engine generates the headline, bullet points, summary, and takeaway
 
--🎤 TTS Generator (Google TTS or gTTS) converts the script into an MP3 narration
+- 🎤 TTS Generator (Google TTS or gTTS) converts the script into an MP3 narration
 
--🖼️ Video Builder renders slides or scrolling text using Pillow and MoviePy
+- 🖼️ Video Builder renders slides or scrolling text using Pillow and MoviePy
 
--🎬 Final Composer merges audio + visuals into a polished MP4 video
+- 🎬 Final Composer merges audio + visuals into a polished MP4 video
 
--📁 Output includes both MP3 narration and MP4 video, stored in the project folder
+- 📁 Output includes both MP3 narration and MP4 video, stored in the project folder
 
 The entire workflow runs automatically in sequence — no ImageMagick required.
 
 ## 💡 Use Cases
 
--📰 Automated news video generation for channels or websites
+- 📰 Automated news video generation for channels or websites
 
--🔍 Quick breakdowns of long articles into short video summaries
+- 🔍 Quick breakdowns of long articles into short video summaries
 
--🎞️ YouTube Shorts, Reels, and TikTok content creation
+- 🎞️ YouTube Shorts, Reels, and TikTok content creation
 
--🤖 AI-driven media automation pipelines
+- 🤖 AI-driven media automation pipelines
 
--📚 Educational tool for learning TTS, NLP, and video rendering
+- 📚 Educational tool for learning TTS, NLP, and video rendering
 
 -🚀 Daily news digest automation for creators and analysts
 
