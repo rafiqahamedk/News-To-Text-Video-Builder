@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Temporary & cache files
+*.log
+*.tmp
+*.cache
+*.json
+
+# Media outputs
+*.mp3
+*.mp4
+*.png
+
+# Jupyter & Colab
+.ipynb_checkpoints/
